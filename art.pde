@@ -24,6 +24,8 @@ void setup() {
 	
 	int randX;
 	int randY;
+	file = new SoundFile(this, randomNote[random(0,11)])
+	file.play()=
 		for(int i = 0; i <= complexityR; i++){
 			randX = random(0,width);
 			randY = random(0,height);
@@ -42,8 +44,7 @@ void setup() {
 }
 void mouseClicked() {
 	
-	file = new SoundFile(this, randomNote[random(0,11)])
-	file.play()
+	
 	size(random(100,500),random(100,500));
 	background(random(0, 255),random(0, 255),random(0, 255));
 	for(int i = 0; i <= complexityR; i++){
