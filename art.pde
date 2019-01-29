@@ -25,7 +25,7 @@ void setup() {
 	int randX;
 	int randY;
 	file = new SoundFile(this, randomNote[random(0,11)])
-	file.play()=
+	file.play()
 		for(int i = 0; i <= complexityR; i++){
 			randX = random(0,width);
 			randY = random(0,height);
