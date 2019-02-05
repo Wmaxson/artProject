@@ -42,7 +42,8 @@ void setup() {
 	
 }
 void mouseClicked() {
-	
+	file = new SoundFile(this, randomNote[random(0,11)]);
+  	file.play();
 	
 	
 	size(random(100,500),random(100,500));
