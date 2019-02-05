@@ -1,3 +1,5 @@
+/* @pjs preload="file1.png","file2.png","file3.jgp"; */
+
 import processing.sound.*;
 int complexityR = random(0,20);
 int complexityE = random(0,20);
