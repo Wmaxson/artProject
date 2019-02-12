@@ -49,7 +49,7 @@ void mouseClicked() {
 }
 void draw() {
 frameRate(framerate);
-size(500,500);
+size(125,125);
 	background(random(0, 255),random(0, 255),random(0, 255));
 	for(int i = 0; i <= complexityR; i++){
 			randX = random(0,width);
