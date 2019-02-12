@@ -7,7 +7,7 @@ void setup() {
 	frameRate(30);
 	noStroke();
 	size(complexityR*40+100, complexityE*40+100);
-	
+	Boolean rep = false;
 	int randX;
 	int randY;
 	
@@ -30,7 +30,7 @@ void setup() {
 void mouseClicked() {
 	
 	
-	
+	/*
 	size(random(250,750),random(250,750));
 	background(random(0, 255),random(0, 255),random(0, 255));
 	for(int i = 0; i <= complexityR; i++){
@@ -45,9 +45,11 @@ void mouseClicked() {
 			fill(random(0, 255),random(0, 255),random(0, 255));
 			ellipse(randX,randY, random(0,width),random(0,height));
 		}
+	*/
+	rep = true;
 }
 void draw() {
-
+if(rep == true){
 size(500,500);
 	background(random(0, 255),random(0, 255),random(0, 255));
 	for(int i = 0; i <= complexityR; i++){
@@ -64,5 +66,5 @@ size(500,500);
 		}
 	
 	
- 
+}
 }
