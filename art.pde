@@ -1,10 +1,10 @@
 
 int complexityR = random(0,20);
 int complexityE = random(0,20);
-
+int framerate = 0.5;
 
 void setup() {
-	frameRate(30);
+	
 	noStroke();
 	size(complexityR*40+100, complexityE*40+100);
 
@@ -48,7 +48,7 @@ void mouseClicked() {
 	
 }
 void draw() {
-
+frameRate(framerate);
 size(500,500);
 	background(random(0, 255),random(0, 255),random(0, 255));
 	for(int i = 0; i <= complexityR; i++){
@@ -64,6 +64,6 @@ size(500,500);
 			ellipse(randX,randY, random(0,width),random(0,height));
 		}
 	
-	
+	framerate++;
 
 }
