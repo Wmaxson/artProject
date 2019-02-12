@@ -4,7 +4,7 @@ int complexityE = random(0,20);
 
 
 void setup() {
-	frameRate(10);
+	frameRate(30);
 	noStroke();
 	size(complexityR*40+100, complexityE*40+100);
 	
