@@ -1,4 +1,4 @@
-import processing.serial.*;
+
 int complexityR = random(0,20);
 int complexityE = random(0,20);
 
@@ -47,7 +47,7 @@ void mouseClicked() {
 		}
 }
 void draw() {
-delay(1000);
+
 size(random(250,750),random(250,750));
 	background(random(0, 255),random(0, 255),random(0, 255));
 	for(int i = 0; i <= complexityR; i++){
