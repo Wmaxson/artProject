@@ -4,7 +4,7 @@ int complexityE = random(0,20);
 
 
 void setup() {
-	size(complexityR*40, complexityE*40);
+	size(complexityR*40+100, complexityE*40+100);
 	
 	int randX;
 	int randY;
