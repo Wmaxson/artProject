@@ -64,6 +64,6 @@ size(500,500);
 			ellipse(randX,randY, random(0,width),random(0,height));
 		}
 	
-	framerate++;
+	framerate+=0.25;
 
 }
