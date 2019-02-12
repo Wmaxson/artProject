@@ -29,7 +29,7 @@ void mouseClicked() {
 	
 	
 	
-	size(random(100,500),random(100,500));
+	size(random(200,750),random(200,750));
 	background(random(0, 255),random(0, 255),random(0, 255));
 	for(int i = 0; i <= complexityR; i++){
 			randX = random(0,width);
