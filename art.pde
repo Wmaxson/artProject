@@ -1,6 +1,6 @@
 
-int complexityR = random(0,100);
-int complexityE = random(0,100);
+int complexityR = random(0,50);
+int complexityE = random(0,50);
 int framerate = 0.5;
 
 void setup() {
